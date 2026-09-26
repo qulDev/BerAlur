@@ -1,0 +1,1 @@
+{"nodes": [{"id": "apps_api_sqlc_sqlc_generation", "label": "sqlc Generation", "file_type": "concept", "source_file": "apps/api/sqlc.yaml", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [], "hyperedges": []}
