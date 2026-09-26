@@ -1,0 +1,148 @@
+:root {
+  color-scheme: light;
+  --paper: #f6f4ee;
+  --ink: #243b30;
+  --muted: #626b62;
+  --line: #d9ddd1;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 44px 64px 28px;
+}
+.wordmark {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+.wordmark > span {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 30px;
+}
+.intro {
+  padding: 96px 0 66px;
+}
+.eyebrow,
+.note-label,
+footer {
+  font-family: "Courier New", monospace;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+}
+.eyebrow {
+  margin: 0 0 24px;
+  font-weight: 700;
+}
+h1 {
+  font-size: clamp(44px, 6.6vw, 80px);
+  line-height: 1.06;
+  letter-spacing: -3px;
+  margin: 0;
+  font-weight: 500;
+}
+.description {
+  max-width: 540px;
+  margin: 26px 0 32px;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.65;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+a {
+  display: inline-flex;
+  align-items: center;
+  gap: 30px;
+  min-height: 48px;
+  padding: 14px 20px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+a.primary {
+  color: white;
+  background: var(--ink);
+  border-color: var(--ink);
+}
+a:hover {
+  border-color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+a:focus-visible {
+  outline: 3px solid #b95228;
+  outline-offset: 4px;
+}
+.note {
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 24px 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 28px;
+  align-items: baseline;
+}
+.note-label {
+  font-weight: bold;
+}
+.note p {
+  color: var(--muted);
+  margin: 0;
+  max-width: 560px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 32px;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.6;
+}
+@media (max-width: 640px) {
+  main {
+    padding: 28px 24px;
+  }
+  .intro {
+    padding: 64px 0 48px;
+  }
+  h1 {
+    letter-spacing: -2px;
+  }
+  .description {
+    font-size: 16px;
+  }
+  .note {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  footer {
+    flex-direction: column;
+  }
+}

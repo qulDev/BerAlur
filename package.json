@@ -1,0 +1,33 @@
+{
+  "name": "beralur",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.34.5",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev:web": "pnpm --filter @beralur/web dev",
+    "dev:api": "cd apps/api && go run ./cmd/api",
+    "test": "pnpm test:api && pnpm test:web",
+    "test:api": "cd apps/api && go test ./...",
+    "test:web": "pnpm --filter @beralur/web test",
+    "lint": "pnpm --filter @beralur/web lint && pnpm lint:api",
+    "lint:api": "cd apps/api && go vet ./...",
+    "typecheck": "pnpm --filter @beralur/web typecheck",
+    "build": "pnpm --filter @beralur/web build && pnpm build:api",
+    "build:api": "cd apps/api && go build ./...",
+    "format": "prettier --write . && cd apps/api && go fmt ./...",
+    "format:check": "prettier --check .",
+    "db:generate": "cd apps/api && go run github.com/sqlc-dev/sqlc/cmd/sqlc@v1.31.1 generate",
+    "db:up": "docker compose -f compose.yaml -f compose.local.yaml up -d --wait db",
+    "db:migrate": "docker compose -f compose.yaml -f compose.local.yaml --profile tools run --build --rm migrate up",
+    "local": "docker compose -f compose.yaml -f compose.local.yaml up --build -d --wait",
+    "local:down": "docker compose -f compose.yaml -f compose.local.yaml down",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "prettier": "3.9.9"
+  }
+}

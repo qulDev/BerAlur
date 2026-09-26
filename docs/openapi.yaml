@@ -1,0 +1,84 @@
+openapi: 3.1.0
+info:
+  title: BerAlur API
+  version: 0.1.0
+  description: Foundation endpoints only. Business API will use /api/v1.
+paths:
+  /health:
+    get:
+      operationId: health
+      summary: Check API process
+      responses:
+        "200":
+          description: Process is running, independent of the database
+          headers:
+            X-Request-ID:
+              $ref: "#/components/headers/RequestID"
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [status]
+                additionalProperties: false
+                properties:
+                  status:
+                    type: string
+                    const: ok
+  /ready:
+    get:
+      operationId: ready
+      summary: Check database connectivity
+      responses:
+        "200":
+          description: Database ping succeeded; does not verify migration version
+          headers:
+            X-Request-ID:
+              $ref: "#/components/headers/RequestID"
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [status]
+                additionalProperties: false
+                properties:
+                  status:
+                    type: string
+                    const: ready
+        "503":
+          description: Database unavailable
+          headers:
+            X-Request-ID:
+              $ref: "#/components/headers/RequestID"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+              example:
+                error:
+                  code: NOT_READY
+                  message: Service is not ready
+components:
+  headers:
+    RequestID:
+      description: Server-generated correlation identifier
+      schema:
+        type: string
+  schemas:
+    Error:
+      type: object
+      required: [error]
+      additionalProperties: false
+      properties:
+        error:
+          type: object
+          required: [code, message]
+          additionalProperties: false
+          properties:
+            code:
+              type: string
+            message:
+              type: string
+            fields:
+              type: object
+              additionalProperties:
+                type: string

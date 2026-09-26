@@ -1,0 +1,11 @@
+**/node_modules
+**/.next
+**/*.tsbuildinfo
+**/.env*
+**/*.log
+.git
+.tools
+.superpowers
+backups
+test-results
+playwright-report

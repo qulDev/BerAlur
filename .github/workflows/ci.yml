@@ -1,0 +1,53 @@
+name: CI
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: apps/api/go.mod
+          cache-dependency-path: apps/api/go.sum
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm test
+      - run: go test -race ./...
+        working-directory: apps/api
+      - run: pnpm lint
+      - run: pnpm typecheck
+      - run: pnpm format:check
+      - run: test -z "$(gofmt -l .)"
+        working-directory: apps/api
+      - run: pnpm build
+      - run: pnpm db:generate
+      - run: git diff --exit-code -- apps/api/db/generated
+      - run: cp .env.example .env
+      - run: docker compose -f compose.yaml -f compose.local.yaml config --quiet
+      - run: docker compose -f compose.yaml -f compose.dev.yaml config --quiet
+      - run: docker compose -f compose.yaml -f compose.prod.yaml config --quiet
+      - run: docker compose -f compose.yaml -f compose.local.yaml up --build -d --wait
+      - run: docker compose -f compose.yaml -f compose.local.yaml --profile tools run --build --rm migrate up
+      - run: go test -tags integration ./...
+        working-directory: apps/api
+        env:
+          TEST_DATABASE_URL: postgres://beralur:beralur_local_only@127.0.0.1:55432/beralur?sslmode=disable
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm test:e2e
+      - run: ./tests/integration/proxy-replacement.ps1
+        shell: pwsh
+      - if: failure()
+        run: docker compose -f compose.yaml -f compose.local.yaml logs --no-color
+      - if: always()
+        run: docker compose -f compose.yaml -f compose.local.yaml down

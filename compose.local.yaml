@@ -1,0 +1,7 @@
+services:
+  db:
+    ports:
+      - "127.0.0.1:${DB_PORT:-55432}:5432"
+  nginx:
+    ports:
+      - "127.0.0.1:${WEB_PORT:-3100}:80"

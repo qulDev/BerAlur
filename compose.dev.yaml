@@ -1,0 +1,12 @@
+# Shared development server. Set APP_ENV=dev in its separate env file.
+services:
+  db:
+    restart: unless-stopped
+  api:
+    restart: unless-stopped
+  web:
+    restart: unless-stopped
+  nginx:
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${WEB_PORT:-3101}:80"
