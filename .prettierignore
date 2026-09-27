@@ -6,3 +6,6 @@ playwright-report/
 test-results/
 .env*
 backups/
+.codex/
+graphify-out/
+AGENTS.md

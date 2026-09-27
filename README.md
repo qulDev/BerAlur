@@ -30,7 +30,19 @@ docker compose -f compose.yaml -f compose.local.yaml down
 
 ## Pengembangan native
 
-Gunakan Node.js 24 LTS, pnpm **10.34.5**, dan Go **1.27**. Versi dependensi tercatat dalam lockfile. Docker tetap dipakai untuk PostgreSQL.
+Gunakan Node.js **24.15.0** (lihat `.nvmrc`), pnpm **10.34.5**, dan Go **1.27**. Versi dependensi tercatat dalam lockfile. Docker tetap dipakai untuk PostgreSQL.
+
+Di Windows dengan NVM for Windows, pasang Node sekali bila belum tersedia, lalu pilih versi proyek ini pada setiap terminal baru:
+
+```powershell
+nvm install 24.15.0
+nvm use 24.15.0
+node --version # v24.15.0
+pnpm --version # 10.34.5
+go version # go1.27.x
+```
+
+Setelah runtime sesuai, jalankan dari root checkout saat ini. `pnpm install --frozen-lockfile` membangun ulang junction dependency untuk lokasi ini tanpa mengubah versi pada lockfile.
 
 ```powershell
 if (-not (Test-Path .env)) { Copy-Item .env.example .env }

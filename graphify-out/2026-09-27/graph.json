@@ -11,7 +11,6 @@
       "_origin": "ast",
       "id": "prettierrc",
       "community": 18,
-      "community_name": ".prettierrc.json",
       "norm_label": ".prettierrc.json"
     },
     {
@@ -22,7 +21,6 @@
       "_origin": "ast",
       "id": "prettierrc_trailingcomma",
       "community": 18,
-      "community_name": ".prettierrc.json",
       "norm_label": "trailingcomma"
     },
     {
@@ -33,7 +31,6 @@
       "_origin": "ast",
       "id": "apps_api_cmd_api_main",
       "community": 2,
-      "community_name": "New",
       "norm_label": "main.go"
     },
     {
@@ -44,7 +41,6 @@
       "_origin": "ast",
       "id": "apps_api_cmd_api_main_main",
       "community": 2,
-      "community_name": "New",
       "norm_label": "main()"
     },
     {
@@ -55,7 +51,6 @@
       "_origin": "ast",
       "id": "apps_api_cmd_api_main_run",
       "community": 2,
-      "community_name": "New",
       "norm_label": "run()"
     },
     {
@@ -66,7 +61,6 @@
       "_origin": "ast",
       "id": "apps_api_cmd_api_main_go_logger",
       "community": 2,
-      "community_name": "New",
       "norm_label": "logger"
     },
     {
@@ -77,7 +71,6 @@
       "_origin": "ast",
       "id": "apps_api_db_generated_db",
       "community": 2,
-      "community_name": "New",
       "norm_label": "db.go"
     },
     {
@@ -88,7 +81,6 @@
       "_origin": "ast",
       "id": "generated_dbtx",
       "community": 2,
-      "community_name": "New",
       "norm_label": "dbtx"
     },
     {
@@ -99,7 +91,6 @@
       "_origin": "ast",
       "id": "apps_api_db_generated_db_new",
       "community": 2,
-      "community_name": "New",
       "norm_label": "new()"
     },
     {
@@ -110,7 +101,6 @@
       "_origin": "ast",
       "id": "queries",
       "community": 2,
-      "community_name": "New",
       "norm_label": "queries"
     },
     {
@@ -121,7 +111,6 @@
       "_origin": "ast",
       "id": "apps_api_db_generated_db_go_generated_queries",
       "community": 2,
-      "community_name": "New",
       "norm_label": "queries"
     },
     {
@@ -132,7 +121,6 @@
       "_origin": "ast",
       "id": "generated_queries_withtx",
       "community": 2,
-      "community_name": "New",
       "norm_label": ".withtx()"
     },
     {
@@ -143,7 +131,6 @@
       "_origin": "ast",
       "id": "tx",
       "community": 2,
-      "community_name": "New",
       "norm_label": "tx"
     },
     {
@@ -154,7 +141,6 @@
       "_origin": "ast",
       "id": "apps_api_db_generated_models",
       "community": 11,
-      "community_name": "Organization",
       "norm_label": "models.go"
     },
     {
@@ -165,7 +151,6 @@
       "_origin": "ast",
       "id": "generated_organization",
       "community": 11,
-      "community_name": "Organization",
       "norm_label": "organization"
     },
     {
@@ -176,7 +161,6 @@
       "_origin": "ast",
       "id": "apps_api_db_generated_models_go_uuid",
       "community": 11,
-      "community_name": "Organization",
       "norm_label": "uuid"
     },
     {
@@ -187,7 +171,6 @@
       "_origin": "ast",
       "id": "timestamptz",
       "community": 11,
-      "community_name": "Organization",
       "norm_label": "timestamptz"
     },
     {
@@ -198,7 +181,6 @@
       "_origin": "ast",
       "id": "apps_api_db_generated_organizations_sql",
       "community": 20,
-      "community_name": "organizations.sql.go",
       "norm_label": "organizations.sql.go"
     },
     {
@@ -209,7 +191,6 @@
       "_origin": "ast",
       "id": "apps_api_db_generated_organizations_sql_go_generated_queries",
       "community": 11,
-      "community_name": "Organization",
       "norm_label": "queries"
     },
     {
@@ -220,7 +201,6 @@
       "_origin": "ast",
       "id": "generated_queries_getorganization",
       "community": 11,
-      "community_name": "Organization",
       "norm_label": ".getorganization()"
     },
     {
@@ -231,7 +211,6 @@
       "_origin": "ast",
       "id": "apps_api_db_generated_organizations_sql_go_context",
       "community": 11,
-      "community_name": "Organization",
       "norm_label": "context"
     },
     {
@@ -242,7 +221,6 @@
       "_origin": "ast",
       "id": "apps_api_db_generated_organizations_sql_go_uuid",
       "community": 11,
-      "community_name": "Organization",
       "norm_label": "uuid"
     },
     {
@@ -253,7 +231,6 @@
       "_origin": "ast",
       "id": "apps_api_db_generated_organizations_integration_test",
       "community": 2,
-      "community_name": "New",
       "norm_label": "organizations_integration_test.go"
     },
     {
@@ -264,7 +241,6 @@
       "_origin": "ast",
       "id": "apps_api_db_generated_organizations_integration_test_testorganizationlookuponpostgres",
       "community": 2,
-      "community_name": "New",
       "norm_label": "testorganizationlookuponpostgres()"
     },
     {
@@ -275,7 +251,6 @@
       "_origin": "ast",
       "id": "apps_api_db_generated_organizations_integration_test_go_t",
       "community": 2,
-      "community_name": "New",
       "norm_label": "t"
     },
     {
@@ -288,7 +263,6 @@
       "_origin": "ast",
       "id": "pkg_beralur_apps_api",
       "community": 29,
-      "community_name": "beralur/apps/api",
       "norm_label": "beralur/apps/api"
     },
     {
@@ -299,7 +273,6 @@
       "_origin": "ast",
       "id": "apps_api_internal_config_config",
       "community": 2,
-      "community_name": "New",
       "norm_label": "config.go"
     },
     {
@@ -310,7 +283,6 @@
       "_origin": "ast",
       "id": "config_config",
       "community": 2,
-      "community_name": "New",
       "norm_label": "config"
     },
     {
@@ -321,7 +293,6 @@
       "_origin": "ast",
       "id": "apps_api_internal_config_config_load",
       "community": 2,
-      "community_name": "New",
       "norm_label": "load()"
     },
     {
@@ -332,7 +303,6 @@
       "_origin": "ast",
       "id": "apps_api_internal_config_config_test",
       "community": 2,
-      "community_name": "New",
       "norm_label": "config_test.go"
     },
     {
@@ -343,7 +313,6 @@
       "_origin": "ast",
       "id": "apps_api_internal_config_config_test_testload",
       "community": 2,
-      "community_name": "New",
       "norm_label": "testload()"
     },
     {
@@ -354,7 +323,6 @@
       "_origin": "ast",
       "id": "apps_api_internal_config_config_test_go_t",
       "community": 2,
-      "community_name": "New",
       "norm_label": "t"
     },
     {
@@ -365,7 +333,6 @@
       "_origin": "ast",
       "id": "apps_api_internal_httpapi_router",
       "community": 9,
-      "community_name": "NewRouter",
       "norm_label": "router.go"
     },
     {
@@ -376,7 +343,6 @@
       "_origin": "ast",
       "id": "apps_api_internal_httpapi_router_newrouter",
       "community": 9,
-      "community_name": "NewRouter",
       "norm_label": "newrouter()"
     },
     {
@@ -387,7 +353,6 @@
       "_origin": "ast",
       "id": "apps_api_internal_httpapi_router_go_context",
       "community": 9,
-      "community_name": "NewRouter",
       "norm_label": "context"
     },
     {
@@ -398,7 +363,6 @@
       "_origin": "ast",
       "id": "apps_api_internal_httpapi_router_go_logger",
       "community": 9,
-      "community_name": "NewRouter",
       "norm_label": "logger"
     },
     {
@@ -409,7 +373,6 @@
       "_origin": "ast",
       "id": "mux",
       "community": 9,
-      "community_name": "NewRouter",
       "norm_label": "mux"
     },
     {
@@ -420,7 +383,6 @@
       "_origin": "ast",
       "id": "apps_api_internal_httpapi_router_writeerror",
       "community": 9,
-      "community_name": "NewRouter",
       "norm_label": "writeerror()"
     },
     {
@@ -431,7 +393,6 @@
       "_origin": "ast",
       "id": "responsewriter",
       "community": 9,
-      "community_name": "NewRouter",
       "norm_label": "responsewriter"
     },
     {
@@ -442,7 +403,6 @@
       "_origin": "ast",
       "id": "apps_api_internal_httpapi_router_test",
       "community": 9,
-      "community_name": "NewRouter",
       "norm_label": "router_test.go"
     },
     {
@@ -453,7 +413,6 @@
       "_origin": "ast",
       "id": "apps_api_internal_httpapi_router_test_testhttpcontract",
       "community": 9,
-      "community_name": "NewRouter",
       "norm_label": "testhttpcontract()"
     },
     {
@@ -464,7 +423,6 @@
       "_origin": "ast",
       "id": "apps_api_internal_httpapi_router_test_go_t",
       "community": 9,
-      "community_name": "NewRouter",
       "norm_label": "t"
     },
     {
@@ -475,7 +433,6 @@
       "_origin": "ast",
       "id": "apps_web_eslint_config",
       "community": 21,
-      "community_name": "eslint.config.mjs",
       "norm_label": "eslint.config.mjs"
     },
     {
@@ -486,7 +443,6 @@
       "_origin": "ast",
       "id": "apps_web_next_env_d",
       "community": 16,
-      "community_name": "next-env.d.ts",
       "norm_label": "next-env.d.ts"
     },
     {
@@ -497,7 +453,6 @@
       "_origin": "ast",
       "id": "apps_web_next_env_d_rationale_6",
       "community": 16,
-      "community_name": "next-env.d.ts",
       "norm_label": "note: this file should not be edited"
     },
     {
@@ -508,7 +463,6 @@
       "_origin": "ast",
       "id": "apps_web_next_config",
       "community": 15,
-      "community_name": "next.config.ts",
       "norm_label": "next.config.ts"
     },
     {
@@ -519,7 +473,6 @@
       "_origin": "ast",
       "id": "apps_web_next_config_config",
       "community": 15,
-      "community_name": "next.config.ts",
       "norm_label": "config"
     },
     {
@@ -530,7 +483,6 @@
       "_origin": "ast",
       "id": "apps_web_package",
       "community": 3,
-      "community_name": "web/package.json",
       "norm_label": "web/package.json"
     },
     {
@@ -541,7 +493,6 @@
       "_origin": "ast",
       "id": "apps_web_package_name",
       "community": 3,
-      "community_name": "web/package.json",
       "norm_label": "name"
     },
     {
@@ -552,7 +503,6 @@
       "_origin": "ast",
       "id": "apps_web_package_version",
       "community": 3,
-      "community_name": "web/package.json",
       "norm_label": "version"
     },
     {
@@ -563,7 +513,6 @@
       "_origin": "ast",
       "id": "apps_web_package_private",
       "community": 3,
-      "community_name": "web/package.json",
       "norm_label": "private"
     },
     {
@@ -574,7 +523,6 @@
       "_origin": "ast",
       "id": "apps_web_package_type",
       "community": 3,
-      "community_name": "web/package.json",
       "norm_label": "type"
     },
     {
@@ -585,7 +533,6 @@
       "_origin": "ast",
       "id": "apps_web_package_scripts",
       "community": 3,
-      "community_name": "web/package.json",
       "norm_label": "scripts"
     },
     {
@@ -596,7 +543,6 @@
       "_origin": "ast",
       "id": "apps_web_package_scripts_dev",
       "community": 3,
-      "community_name": "web/package.json",
       "norm_label": "dev"
     },
     {
@@ -607,7 +553,6 @@
       "_origin": "ast",
       "id": "apps_web_package_scripts_build",
       "community": 3,
-      "community_name": "web/package.json",
       "norm_label": "build"
     },
     {
@@ -618,7 +563,6 @@
       "_origin": "ast",
       "id": "apps_web_package_scripts_start",
       "community": 3,
-      "community_name": "web/package.json",
       "norm_label": "start"
     },
     {
@@ -629,7 +573,6 @@
       "_origin": "ast",
       "id": "apps_web_package_scripts_lint",
       "community": 3,
-      "community_name": "web/package.json",
       "norm_label": "lint"
     },
     {
@@ -640,7 +583,6 @@
       "_origin": "ast",
       "id": "apps_web_package_scripts_typecheck",
       "community": 3,
-      "community_name": "web/package.json",
       "norm_label": "typecheck"
     },
     {
@@ -651,7 +593,6 @@
       "_origin": "ast",
       "id": "apps_web_package_scripts_test",
       "community": 3,
-      "community_name": "web/package.json",
       "norm_label": "test"
     },
     {
@@ -662,7 +603,6 @@
       "_origin": "ast",
       "id": "apps_web_package_dependencies",
       "community": 3,
-      "community_name": "web/package.json",
       "norm_label": "dependencies"
     },
     {
@@ -673,7 +613,6 @@
       "_origin": "ast",
       "id": "apps_web_package_dependencies_next",
       "community": 3,
-      "community_name": "web/package.json",
       "norm_label": "next"
     },
     {
@@ -684,7 +623,6 @@
       "_origin": "ast",
       "id": "next",
       "community": 3,
-      "community_name": "web/package.json",
       "norm_label": "next"
     },
     {
@@ -695,7 +633,6 @@
       "_origin": "ast",
       "id": "apps_web_package_dependencies_react",
       "community": 3,
-      "community_name": "web/package.json",
       "norm_label": "react"
     },
     {
@@ -706,7 +643,6 @@
       "_origin": "ast",
       "id": "react",
       "community": 3,
-      "community_name": "web/package.json",
       "norm_label": "react"
     },
     {
@@ -717,7 +653,6 @@
       "_origin": "ast",
       "id": "apps_web_package_dependencies_react_dom",
       "community": 3,
-      "community_name": "web/package.json",
       "norm_label": "react-dom"
     },
     {
@@ -728,7 +663,6 @@
       "_origin": "ast",
       "id": "react_dom",
       "community": 3,
-      "community_name": "web/package.json",
       "norm_label": "react-dom"
     },
     {
@@ -739,7 +673,6 @@
       "_origin": "ast",
       "id": "apps_web_package_devdependencies",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "devdependencies"
     },
     {
@@ -750,7 +683,6 @@
       "_origin": "ast",
       "id": "apps_web_package_devdependencies_testing_library_jest_dom",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "@testing-library/jest-dom"
     },
     {
@@ -761,7 +693,6 @@
       "_origin": "ast",
       "id": "testing_library_jest_dom",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "@testing-library/jest-dom"
     },
     {
@@ -772,7 +703,6 @@
       "_origin": "ast",
       "id": "apps_web_package_devdependencies_testing_library_react",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "@testing-library/react"
     },
     {
@@ -783,7 +713,6 @@
       "_origin": "ast",
       "id": "testing_library_react",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "@testing-library/react"
     },
     {
@@ -794,7 +723,6 @@
       "_origin": "ast",
       "id": "apps_web_package_devdependencies_types_node",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "@types/node"
     },
     {
@@ -805,7 +733,6 @@
       "_origin": "ast",
       "id": "types_node",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "@types/node"
     },
     {
@@ -816,7 +743,6 @@
       "_origin": "ast",
       "id": "apps_web_package_devdependencies_types_react",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "@types/react"
     },
     {
@@ -827,7 +753,6 @@
       "_origin": "ast",
       "id": "types_react",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "@types/react"
     },
     {
@@ -838,7 +763,6 @@
       "_origin": "ast",
       "id": "apps_web_package_devdependencies_types_react_dom",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "@types/react-dom"
     },
     {
@@ -849,7 +773,6 @@
       "_origin": "ast",
       "id": "types_react_dom",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "@types/react-dom"
     },
     {
@@ -860,7 +783,6 @@
       "_origin": "ast",
       "id": "apps_web_package_devdependencies_vitejs_plugin_react",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "@vitejs/plugin-react"
     },
     {
@@ -871,7 +793,6 @@
       "_origin": "ast",
       "id": "vitejs_plugin_react",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "@vitejs/plugin-react"
     },
     {
@@ -882,7 +803,6 @@
       "_origin": "ast",
       "id": "apps_web_package_devdependencies_eslint",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "eslint"
     },
     {
@@ -893,7 +813,6 @@
       "_origin": "ast",
       "id": "eslint",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "eslint"
     },
     {
@@ -904,7 +823,6 @@
       "_origin": "ast",
       "id": "apps_web_package_devdependencies_eslint_config_next",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "eslint-config-next"
     },
     {
@@ -915,7 +833,6 @@
       "_origin": "ast",
       "id": "eslint_config_next",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "eslint-config-next"
     },
     {
@@ -926,7 +843,6 @@
       "_origin": "ast",
       "id": "apps_web_package_devdependencies_jsdom",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "jsdom"
     },
     {
@@ -937,7 +853,6 @@
       "_origin": "ast",
       "id": "jsdom",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "jsdom"
     },
     {
@@ -948,7 +863,6 @@
       "_origin": "ast",
       "id": "apps_web_package_devdependencies_typescript",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "typescript"
     },
     {
@@ -959,7 +873,6 @@
       "_origin": "ast",
       "id": "typescript",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "typescript"
     },
     {
@@ -970,7 +883,6 @@
       "_origin": "ast",
       "id": "apps_web_package_devdependencies_vitest",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "vitest"
     },
     {
@@ -981,7 +893,6 @@
       "_origin": "ast",
       "id": "vitest",
       "community": 1,
-      "community_name": "devDependencies",
       "norm_label": "vitest"
     },
     {
@@ -992,7 +903,6 @@
       "_origin": "ast",
       "id": "apps_web_src_app_layout",
       "community": 13,
-      "community_name": "layout.tsx",
       "norm_label": "layout.tsx"
     },
     {
@@ -1003,7 +913,6 @@
       "_origin": "ast",
       "id": "apps_web_src_app_layout_metadata",
       "community": 13,
-      "community_name": "layout.tsx",
       "norm_label": "metadata"
     },
     {
@@ -1014,7 +923,6 @@
       "_origin": "ast",
       "id": "apps_web_src_app_layout_rootlayout",
       "community": 13,
-      "community_name": "layout.tsx",
       "norm_label": "rootlayout()"
     },
     {
@@ -1025,7 +933,6 @@
       "_origin": "ast",
       "id": "apps_web_src_app_page_test",
       "community": 14,
-      "community_name": "page.tsx",
       "norm_label": "page.test.tsx"
     },
     {
@@ -1036,7 +943,6 @@
       "_origin": "ast",
       "id": "apps_web_src_app_page",
       "community": 14,
-      "community_name": "page.tsx",
       "norm_label": "page.tsx"
     },
     {
@@ -1047,7 +953,6 @@
       "_origin": "ast",
       "id": "apps_web_src_app_page_home",
       "community": 14,
-      "community_name": "page.tsx",
       "norm_label": "home()"
     },
     {
@@ -1058,7 +963,6 @@
       "_origin": "ast",
       "id": "apps_web_test_setup",
       "community": 22,
-      "community_name": "setup.ts",
       "norm_label": "setup.ts"
     },
     {
@@ -1069,7 +973,6 @@
       "_origin": "ast",
       "id": "apps_web_tsconfig",
       "community": 10,
-      "community_name": "include",
       "norm_label": "tsconfig.json"
     },
     {
@@ -1080,7 +983,6 @@
       "_origin": "ast",
       "id": "apps_web_tsconfig_compileroptions",
       "community": 4,
-      "community_name": "compilerOptions",
       "norm_label": "compileroptions"
     },
     {
@@ -1091,7 +993,6 @@
       "_origin": "ast",
       "id": "apps_web_tsconfig_compileroptions_target",
       "community": 4,
-      "community_name": "compilerOptions",
       "norm_label": "target"
     },
     {
@@ -1102,7 +1003,6 @@
       "_origin": "ast",
       "id": "apps_web_tsconfig_compileroptions_lib",
       "community": 4,
-      "community_name": "compilerOptions",
       "norm_label": "lib"
     },
     {
@@ -1113,7 +1013,6 @@
       "_origin": "ast",
       "id": "ref_dom",
       "community": 4,
-      "community_name": "compilerOptions",
       "norm_label": "dom"
     },
     {
@@ -1124,7 +1023,6 @@
       "_origin": "ast",
       "id": "ref_dom_iterable",
       "community": 4,
-      "community_name": "compilerOptions",
       "norm_label": "dom.iterable"
     },
     {
@@ -1135,7 +1033,6 @@
       "_origin": "ast",
       "id": "ref_esnext",
       "community": 4,
-      "community_name": "compilerOptions",
       "norm_label": "esnext"
     },
     {
@@ -1146,7 +1043,6 @@
       "_origin": "ast",
       "id": "apps_web_tsconfig_compileroptions_allowjs",
       "community": 4,
-      "community_name": "compilerOptions",
       "norm_label": "allowjs"
     },
     {
@@ -1157,7 +1053,6 @@
       "_origin": "ast",
       "id": "apps_web_tsconfig_compileroptions_skiplibcheck",
       "community": 4,
-      "community_name": "compilerOptions",
       "norm_label": "skiplibcheck"
     },
     {
@@ -1168,7 +1063,6 @@
       "_origin": "ast",
       "id": "apps_web_tsconfig_compileroptions_strict",
       "community": 4,
-      "community_name": "compilerOptions",
       "norm_label": "strict"
     },
     {
@@ -1179,7 +1073,6 @@
       "_origin": "ast",
       "id": "apps_web_tsconfig_compileroptions_noemit",
       "community": 4,
-      "community_name": "compilerOptions",
       "norm_label": "noemit"
     },
     {
@@ -1190,7 +1083,6 @@
       "_origin": "ast",
       "id": "apps_web_tsconfig_compileroptions_esmoduleinterop",
       "community": 4,
-      "community_name": "compilerOptions",
       "norm_label": "esmoduleinterop"
     },
     {
@@ -1201,7 +1093,6 @@
       "_origin": "ast",
       "id": "apps_web_tsconfig_compileroptions_module",
       "community": 4,
-      "community_name": "compilerOptions",
       "norm_label": "module"
     },
     {
@@ -1212,7 +1103,6 @@
       "_origin": "ast",
       "id": "apps_web_tsconfig_compileroptions_moduleresolution",
       "community": 4,
-      "community_name": "compilerOptions",
       "norm_label": "moduleresolution"
     },
     {
@@ -1223,7 +1113,6 @@
       "_origin": "ast",
       "id": "apps_web_tsconfig_compileroptions_resolvejsonmodule",
       "community": 4,
-      "community_name": "compilerOptions",
       "norm_label": "resolvejsonmodule"
     },
     {
@@ -1234,7 +1123,6 @@
       "_origin": "ast",
       "id": "apps_web_tsconfig_compileroptions_isolatedmodules",
       "community": 4,
-      "community_name": "compilerOptions",
       "norm_label": "isolatedmodules"
     },
     {
@@ -1245,7 +1133,6 @@
       "_origin": "ast",
       "id": "apps_web_tsconfig_compileroptions_jsx",
       "community": 4,
-      "community_name": "compilerOptions",
       "norm_label": "jsx"
     },
     {
@@ -1256,7 +1143,6 @@
       "_origin": "ast",
       "id": "apps_web_tsconfig_compileroptions_incremental",
       "community": 4,
-      "community_name": "compilerOptions",
       "norm_label": "incremental"
     },
     {
@@ -1267,7 +1153,6 @@
       "_origin": "ast",
       "id": "apps_web_tsconfig_compileroptions_plugins",
       "community": 4,
-      "community_name": "compilerOptions",
       "norm_label": "plugins"
     },
     {
@@ -1278,7 +1163,6 @@
       "_origin": "ast",
       "id": "apps_web_tsconfig_compileroptions_paths",
       "community": 4,
-      "community_name": "compilerOptions",
       "norm_label": "paths"
     },
     {
@@ -1289,7 +1173,6 @@
       "_origin": "ast",
       "id": "apps_web_tsconfig_include",
       "community": 10,
-      "community_name": "include",
       "norm_label": "include"
     },
     {
@@ -1300,7 +1183,6 @@
       "_origin": "ast",
       "id": "ref_next_env_d_ts",
       "community": 10,
-      "community_name": "include",
       "norm_label": "next-env.d.ts"
     },
     {
@@ -1311,7 +1193,6 @@
       "_origin": "ast",
       "id": "ref_ts",
       "community": 10,
-      "community_name": "include",
       "norm_label": "**/*.ts"
     },
     {
@@ -1322,7 +1203,6 @@
       "_origin": "ast",
       "id": "ref_tsx",
       "community": 10,
-      "community_name": "include",
       "norm_label": "**/*.tsx"
     },
     {
@@ -1333,7 +1213,6 @@
       "_origin": "ast",
       "id": "ref_next_types_ts",
       "community": 10,
-      "community_name": "include",
       "norm_label": ".next/types/**/*.ts"
     },
     {
@@ -1344,7 +1223,6 @@
       "_origin": "ast",
       "id": "ref_next_dev_types_ts",
       "community": 10,
-      "community_name": "include",
       "norm_label": ".next/dev/types/**/*.ts"
     },
     {
@@ -1355,7 +1233,6 @@
       "_origin": "ast",
       "id": "apps_web_tsconfig_exclude",
       "community": 10,
-      "community_name": "include",
       "norm_label": "exclude"
     },
     {
@@ -1366,7 +1243,6 @@
       "_origin": "ast",
       "id": "ref_node_modules",
       "community": 10,
-      "community_name": "include",
       "norm_label": "node_modules"
     },
     {
@@ -1377,7 +1253,6 @@
       "_origin": "ast",
       "id": "apps_web_vitest_config",
       "community": 23,
-      "community_name": "vitest.config.ts",
       "norm_label": "vitest.config.ts"
     },
     {
@@ -1387,8 +1262,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "package",
-      "community": 5,
-      "community_name": "scripts",
+      "community": 7,
       "norm_label": "package.json"
     },
     {
@@ -1398,8 +1272,7 @@
       "source_location": "L2",
       "_origin": "ast",
       "id": "package_name",
-      "community": 5,
-      "community_name": "scripts",
+      "community": 7,
       "norm_label": "name"
     },
     {
@@ -1409,8 +1282,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "package_version",
-      "community": 5,
-      "community_name": "scripts",
+      "community": 7,
       "norm_label": "version"
     },
     {
@@ -1420,8 +1292,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "package_private",
-      "community": 5,
-      "community_name": "scripts",
+      "community": 7,
       "norm_label": "private"
     },
     {
@@ -1431,8 +1302,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "package_packagemanager",
-      "community": 5,
-      "community_name": "scripts",
+      "community": 7,
       "norm_label": "packagemanager"
     },
     {
@@ -1442,8 +1312,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "package_engines",
-      "community": 5,
-      "community_name": "scripts",
+      "community": 7,
       "norm_label": "engines"
     },
     {
@@ -1453,8 +1322,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "package_engines_node",
-      "community": 5,
-      "community_name": "scripts",
+      "community": 7,
       "norm_label": "node"
     },
     {
@@ -1465,7 +1333,6 @@
       "_origin": "ast",
       "id": "package_scripts",
       "community": 5,
-      "community_name": "scripts",
       "norm_label": "scripts"
     },
     {
@@ -1476,7 +1343,6 @@
       "_origin": "ast",
       "id": "package_scripts_dev_web",
       "community": 5,
-      "community_name": "scripts",
       "norm_label": "dev:web"
     },
     {
@@ -1487,7 +1353,6 @@
       "_origin": "ast",
       "id": "package_scripts_dev_api",
       "community": 5,
-      "community_name": "scripts",
       "norm_label": "dev:api"
     },
     {
@@ -1498,7 +1363,6 @@
       "_origin": "ast",
       "id": "package_scripts_test",
       "community": 5,
-      "community_name": "scripts",
       "norm_label": "test"
     },
     {
@@ -1509,7 +1373,6 @@
       "_origin": "ast",
       "id": "package_scripts_test_api",
       "community": 5,
-      "community_name": "scripts",
       "norm_label": "test:api"
     },
     {
@@ -1520,7 +1383,6 @@
       "_origin": "ast",
       "id": "package_scripts_test_web",
       "community": 5,
-      "community_name": "scripts",
       "norm_label": "test:web"
     },
     {
@@ -1531,7 +1393,6 @@
       "_origin": "ast",
       "id": "package_scripts_lint",
       "community": 5,
-      "community_name": "scripts",
       "norm_label": "lint"
     },
     {
@@ -1542,7 +1403,6 @@
       "_origin": "ast",
       "id": "package_scripts_lint_api",
       "community": 5,
-      "community_name": "scripts",
       "norm_label": "lint:api"
     },
     {
@@ -1553,7 +1413,6 @@
       "_origin": "ast",
       "id": "package_scripts_typecheck",
       "community": 5,
-      "community_name": "scripts",
       "norm_label": "typecheck"
     },
     {
@@ -1564,7 +1423,6 @@
       "_origin": "ast",
       "id": "package_scripts_build",
       "community": 5,
-      "community_name": "scripts",
       "norm_label": "build"
     },
     {
@@ -1575,7 +1433,6 @@
       "_origin": "ast",
       "id": "package_scripts_build_api",
       "community": 5,
-      "community_name": "scripts",
       "norm_label": "build:api"
     },
     {
@@ -1586,7 +1443,6 @@
       "_origin": "ast",
       "id": "package_scripts_format",
       "community": 5,
-      "community_name": "scripts",
       "norm_label": "format"
     },
     {
@@ -1597,7 +1453,6 @@
       "_origin": "ast",
       "id": "package_scripts_format_check",
       "community": 5,
-      "community_name": "scripts",
       "norm_label": "format:check"
     },
     {
@@ -1608,7 +1463,6 @@
       "_origin": "ast",
       "id": "package_scripts_db_generate",
       "community": 5,
-      "community_name": "scripts",
       "norm_label": "db:generate"
     },
     {
@@ -1619,7 +1473,6 @@
       "_origin": "ast",
       "id": "package_scripts_db_up",
       "community": 5,
-      "community_name": "scripts",
       "norm_label": "db:up"
     },
     {
@@ -1630,7 +1483,6 @@
       "_origin": "ast",
       "id": "package_scripts_db_migrate",
       "community": 5,
-      "community_name": "scripts",
       "norm_label": "db:migrate"
     },
     {
@@ -1641,7 +1493,6 @@
       "_origin": "ast",
       "id": "package_scripts_local",
       "community": 5,
-      "community_name": "scripts",
       "norm_label": "local"
     },
     {
@@ -1652,7 +1503,6 @@
       "_origin": "ast",
       "id": "package_scripts_local_down",
       "community": 5,
-      "community_name": "scripts",
       "norm_label": "local:down"
     },
     {
@@ -1663,7 +1513,6 @@
       "_origin": "ast",
       "id": "package_scripts_test_e2e",
       "community": 5,
-      "community_name": "scripts",
       "norm_label": "test:e2e"
     },
     {
@@ -1674,7 +1523,6 @@
       "_origin": "ast",
       "id": "package_devdependencies",
       "community": 7,
-      "community_name": "devDependencies",
       "norm_label": "devdependencies"
     },
     {
@@ -1685,7 +1533,6 @@
       "_origin": "ast",
       "id": "package_devdependencies_playwright_test",
       "community": 7,
-      "community_name": "devDependencies",
       "norm_label": "@playwright/test"
     },
     {
@@ -1696,7 +1543,6 @@
       "_origin": "ast",
       "id": "playwright_test",
       "community": 7,
-      "community_name": "devDependencies",
       "norm_label": "@playwright/test"
     },
     {
@@ -1707,7 +1553,6 @@
       "_origin": "ast",
       "id": "package_devdependencies_prettier",
       "community": 7,
-      "community_name": "devDependencies",
       "norm_label": "prettier"
     },
     {
@@ -1718,7 +1563,6 @@
       "_origin": "ast",
       "id": "prettier",
       "community": 7,
-      "community_name": "devDependencies",
       "norm_label": "prettier"
     },
     {
@@ -1729,7 +1573,6 @@
       "_origin": "ast",
       "id": "playwright_config",
       "community": 30,
-      "community_name": "playwright.config.ts",
       "norm_label": "playwright.config.ts"
     },
     {
@@ -1740,7 +1583,6 @@
       "_origin": "ast",
       "id": "scripts_backup_db",
       "community": 32,
-      "community_name": "backup-db.ps1",
       "norm_label": "backup-db.ps1"
     },
     {
@@ -1751,7 +1593,6 @@
       "_origin": "ast",
       "id": "scripts_restore_db",
       "community": 33,
-      "community_name": "restore-db.ps1",
       "norm_label": "restore-db.ps1"
     },
     {
@@ -1762,7 +1603,6 @@
       "_origin": "ast",
       "id": "tests_e2e_foundation_spec",
       "community": 34,
-      "community_name": "foundation.spec.ts",
       "norm_label": "foundation.spec.ts"
     },
     {
@@ -1773,7 +1613,6 @@
       "_origin": "ast",
       "id": "tests_integration_proxy_replacement",
       "community": 19,
-      "community_name": "proxy-replacement.ps1",
       "norm_label": "proxy-replacement.ps1"
     },
     {
@@ -1784,63 +1623,7 @@
       "_origin": "ast",
       "id": "tests_integration_proxy_replacement_assert_health",
       "community": 19,
-      "community_name": "proxy-replacement.ps1",
       "norm_label": "assert-health()"
-    },
-    {
-      "label": "query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m.md",
-      "file_type": "document",
-      "source_file": "graphify-out/memory/query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "graphify_out_memory_query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m",
-      "community": 35,
-      "community_name": "Q: Saya ingin bertanya apakah struktur alur kita ni mudah migrasi ke antara vps kalau ada masalah di vps layanana lain?",
-      "norm_label": "query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m.md"
-    },
-    {
-      "label": "Q: Saya ingin bertanya apakah struktur alur kita ni mudah migrasi ke antara vps kalau ada masalah di vps layanana lain?",
-      "file_type": "document",
-      "source_file": "graphify-out/memory/query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m.md",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "graphify_out_memory_query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m_q_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_mudah_migrasi_ke_antara_vps_kalau_ada_masalah_di_vps_layanana_lain",
-      "community": 35,
-      "community_name": "Q: Saya ingin bertanya apakah struktur alur kita ni mudah migrasi ke antara vps kalau ada masalah di vps layanana lain?",
-      "norm_label": "q: saya ingin bertanya apakah struktur alur kita ni mudah migrasi ke antara vps kalau ada masalah di vps layanana lain?"
-    },
-    {
-      "label": "Answer",
-      "file_type": "document",
-      "source_file": "graphify-out/memory/query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m.md",
-      "source_location": "L12",
-      "_origin": "ast",
-      "id": "graphify_out_memory_query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m_answer",
-      "community": 35,
-      "community_name": "Q: Saya ingin bertanya apakah struktur alur kita ni mudah migrasi ke antara vps kalau ada masalah di vps layanana lain?",
-      "norm_label": "answer"
-    },
-    {
-      "label": "Outcome",
-      "file_type": "document",
-      "source_file": "graphify-out/memory/query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m.md",
-      "source_location": "L16",
-      "_origin": "ast",
-      "id": "graphify_out_memory_query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m_outcome",
-      "community": 35,
-      "community_name": "Q: Saya ingin bertanya apakah struktur alur kita ni mudah migrasi ke antara vps kalau ada masalah di vps layanana lain?",
-      "norm_label": "outcome"
-    },
-    {
-      "label": "Source Nodes",
-      "file_type": "document",
-      "source_file": "graphify-out/memory/query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m.md",
-      "source_location": "L20",
-      "_origin": "ast",
-      "id": "graphify_out_memory_query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m_source_nodes",
-      "community": 35,
-      "community_name": "Q: Saya ingin bertanya apakah struktur alur kita ni mudah migrasi ke antara vps kalau ada masalah di vps layanana lain?",
-      "norm_label": "source nodes"
     },
     {
       "label": "Graphify Full Pipeline",
@@ -1851,10 +1634,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
-      "norm_label": "graphify full pipeline",
       "id": "codex_skills_graphify_skill_full_pipeline",
-      "community_name": "Graphify Full Pipeline"
+      "community": 8,
+      "norm_label": "graphify full pipeline"
     },
     {
       "label": "URL Ingestion",
@@ -1865,10 +1647,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
-      "norm_label": "url ingestion",
       "id": "codex_skills_graphify_references_add_watch_url_ingestion",
-      "community_name": "Graphify Full Pipeline"
+      "community": 8,
+      "norm_label": "url ingestion"
     },
     {
       "label": "Folder Watcher",
@@ -1879,10 +1660,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
-      "norm_label": "folder watcher",
       "id": "codex_skills_graphify_references_add_watch_folder_watcher",
-      "community_name": "Graphify Full Pipeline"
+      "community": 8,
+      "norm_label": "folder watcher"
     },
     {
       "label": "Portable Graph Exports",
@@ -1893,10 +1673,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
-      "norm_label": "portable graph exports",
       "id": "codex_skills_graphify_references_exports_portable_exports",
-      "community_name": "Graphify Full Pipeline"
+      "community": 8,
+      "norm_label": "portable graph exports"
     },
     {
       "label": "Semantic Extraction Schema",
@@ -1907,10 +1686,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
-      "norm_label": "semantic extraction schema",
       "id": "codex_skills_graphify_references_extraction_spec_semantic_extraction_schema",
-      "community_name": "Graphify Full Pipeline"
+      "community": 8,
+      "norm_label": "semantic extraction schema"
     },
     {
       "label": "Cross-Repository Graph Merge",
@@ -1921,10 +1699,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
-      "norm_label": "cross-repository graph merge",
       "id": "codex_skills_graphify_references_github_and_merge_cross_repo_merge",
-      "community_name": "Graphify Full Pipeline"
+      "community": 8,
+      "norm_label": "cross-repository graph merge"
     },
     {
       "label": "Commit Graph Rebuild",
@@ -1935,10 +1712,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
-      "norm_label": "commit graph rebuild",
       "id": "codex_skills_graphify_references_hooks_commit_graph_rebuild",
-      "community_name": "Graphify Full Pipeline"
+      "community": 8,
+      "norm_label": "commit graph rebuild"
     },
     {
       "label": "Graph Query Traversal",
@@ -1949,10 +1725,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
-      "norm_label": "graph query traversal",
       "id": "codex_skills_graphify_references_query_graph_query_traversal",
-      "community_name": "Graphify Full Pipeline"
+      "community": 8,
+      "norm_label": "graph query traversal"
     },
     {
       "label": "Media Transcription",
@@ -1963,10 +1738,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
-      "norm_label": "media transcription",
       "id": "codex_skills_graphify_references_transcribe_media_transcription",
-      "community_name": "Graphify Full Pipeline"
+      "community": 8,
+      "norm_label": "media transcription"
     },
     {
       "label": "Incremental Graph Update",
@@ -1977,10 +1751,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
-      "norm_label": "incremental graph update",
       "id": "codex_skills_graphify_references_update_incremental_graph_update",
-      "community_name": "Graphify Full Pipeline"
+      "community": 8,
+      "norm_label": "incremental graph update"
     },
     {
       "label": "CI Verification Workflow",
@@ -1991,10 +1764,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
-      "norm_label": "ci verification workflow",
       "id": "github_workflows_ci_ci_verification",
-      "community_name": "Container Stack"
+      "community": 6,
+      "norm_label": "ci verification workflow"
     },
     {
       "label": "Project Graph Rules",
@@ -2005,10 +1777,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
-      "norm_label": "project graph rules",
       "id": "agents_project_graph_rules",
-      "community_name": "Graphify Full Pipeline"
+      "community": 8,
+      "norm_label": "project graph rules"
     },
     {
       "label": "BerAlur SaaS Foundation",
@@ -2019,10 +1790,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
-      "norm_label": "beralur saas foundation",
       "id": "readme_saas_foundation",
-      "community_name": "Container Stack"
+      "community": 6,
+      "norm_label": "beralur saas foundation"
     },
     {
       "label": "sqlc Generation",
@@ -2033,10 +1803,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
-      "norm_label": "sqlc generation",
       "id": "apps_api_sqlc_sqlc_generation",
-      "community_name": "Container Stack"
+      "community": 6,
+      "norm_label": "sqlc generation"
     },
     {
       "label": "Container Stack",
@@ -2047,10 +1816,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
-      "norm_label": "container stack",
       "id": "compose_container_stack",
-      "community_name": "Container Stack"
+      "community": 6,
+      "norm_label": "container stack"
     },
     {
       "label": "Development Compose Overlay",
@@ -2061,10 +1829,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
-      "norm_label": "development compose overlay",
       "id": "compose_dev_development_overlay",
-      "community_name": "Container Stack"
+      "community": 6,
+      "norm_label": "development compose overlay"
     },
     {
       "label": "Local Compose Overlay",
@@ -2075,10 +1842,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
-      "norm_label": "local compose overlay",
       "id": "compose_local_local_overlay",
-      "community_name": "Container Stack"
+      "community": 6,
+      "norm_label": "local compose overlay"
     },
     {
       "label": "Production Compose Overlay",
@@ -2089,10 +1855,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
-      "norm_label": "production compose overlay",
       "id": "compose_prod_production_overlay",
-      "community_name": "Container Stack"
+      "community": 6,
+      "norm_label": "production compose overlay"
     },
     {
       "label": "Private Production Ports",
@@ -2104,10 +1869,9 @@
       "author": null,
       "contributor": null,
       "rationale": "The production overlay binds Nginx only to loopback because TLS is terminated by an external reverse proxy and application and database ports remain private.",
-      "community": 6,
-      "norm_label": "private production ports",
       "id": "compose_prod_private_production_ports",
-      "community_name": "Container Stack"
+      "community": 6,
+      "norm_label": "private production ports"
     },
     {
       "label": "API Contract",
@@ -2118,10 +1882,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
-      "norm_label": "api contract",
       "id": "docs_api_guidelines_api_contract",
-      "community_name": "Container Stack"
+      "community": 6,
+      "norm_label": "api contract"
     },
     {
       "label": "Membership-Derived Tenant Scope",
@@ -2133,10 +1896,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Business requests must derive organization scope from authenticated membership rather than accepting organizationId in the request body.",
-      "community": 6,
-      "norm_label": "membership-derived tenant scope",
       "id": "docs_api_guidelines_membership_tenant_scope",
-      "community_name": "Container Stack"
+      "community": 6,
+      "norm_label": "membership-derived tenant scope"
     },
     {
       "label": "Foundation Architecture",
@@ -2147,10 +1909,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
-      "norm_label": "foundation architecture",
       "id": "docs_architecture_foundation_architecture",
-      "community_name": "Container Stack"
+      "community": 6,
+      "norm_label": "foundation architecture"
     },
     {
       "label": "Minimal Foundation Scope",
@@ -2162,10 +1923,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Generic repositories, base services, universal response wrappers, Redis, queues, microservices, and empty domain folders are deferred until a real feature requires them.",
-      "community": 6,
-      "norm_label": "minimal foundation scope",
       "id": "docs_architecture_minimal_foundation_scope",
-      "community_name": "Container Stack"
+      "community": 6,
+      "norm_label": "minimal foundation scope"
     },
     {
       "label": "Minimal Domain Rules",
@@ -2177,10 +1937,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Use direct functions and the standard library before adding abstractions or dependencies, while retaining validation, tenant scoping, atomicity, and critical-behavior tests.",
-      "community": 6,
-      "norm_label": "minimal domain rules",
       "id": "docs_coding_guidelines_minimal_domain_rules",
-      "community_name": "Container Stack"
+      "community": 6,
+      "norm_label": "minimal domain rules"
     },
     {
       "label": "Database",
@@ -2191,10 +1950,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 24,
-      "norm_label": "database",
       "id": "docs_database",
-      "community_name": "Database"
+      "community": 24,
+      "norm_label": "database"
     },
     {
       "label": "DATABASE_URL",
@@ -2205,10 +1963,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "norm_label": "database_url",
       "id": "docs_database_database_url",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "database_url"
     },
     {
       "label": "Organization identity migration",
@@ -2219,10 +1976,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "norm_label": "organization identity migration",
       "id": "docs_database_organization_identity_migration",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "organization identity migration"
     },
     {
       "label": "sqlc and goose migrations",
@@ -2233,10 +1989,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "norm_label": "sqlc and goose migrations",
       "id": "docs_database_sqlc_and_goose",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "sqlc and goose migrations"
     },
     {
       "label": "Single deployment migration job",
@@ -2248,10 +2003,9 @@
       "author": null,
       "contributor": null,
       "rationale": "API replicas must not each execute migrations; run one job before applications use the new schema.",
-      "community": 12,
-      "norm_label": "single deployment migration job",
       "id": "docs_database_migration_job",
-      "community_name": "Forward-fix migration policy"
+      "community": 12,
+      "norm_label": "single deployment migration job"
     },
     {
       "label": "Forward-fix migration policy",
@@ -2263,10 +2017,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Shared migrations are not modified; production recovery prioritizes a forward fix and tested backup.",
-      "community": 12,
-      "norm_label": "forward-fix migration policy",
       "id": "docs_database_forward_fix",
-      "community_name": "Forward-fix migration policy"
+      "community": 12,
+      "norm_label": "forward-fix migration policy"
     },
     {
       "label": "Backup and restore safeguards",
@@ -2277,10 +2030,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
-      "norm_label": "backup and restore safeguards",
       "id": "docs_database_backup_restore",
-      "community_name": "Forward-fix migration policy"
+      "community": 12,
+      "norm_label": "backup and restore safeguards"
     },
     {
       "label": "Environments and deployment",
@@ -2291,10 +2043,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 25,
-      "norm_label": "environments and deployment",
       "id": "docs_environments",
-      "community_name": "Environments and deployment"
+      "community": 25,
+      "norm_label": "environments and deployment"
     },
     {
       "label": "Compose environment overrides",
@@ -2305,10 +2056,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "norm_label": "compose environment overrides",
       "id": "docs_environments_compose_overrides",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "compose environment overrides"
     },
     {
       "label": "APP_ENV",
@@ -2319,10 +2069,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "norm_label": "app_env",
       "id": "docs_environments_app_env",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "app_env"
     },
     {
       "label": "Environment credential isolation",
@@ -2334,10 +2083,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Each dev and production environment needs distinct passwords, databases, and env files; combining overrides can expose the local PostgreSQL port.",
-      "community": 0,
-      "norm_label": "environment credential isolation",
       "id": "docs_environments_environment_isolation",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "environment credential isolation"
     },
     {
       "label": "Production deployment sequence",
@@ -2348,10 +2096,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
-      "norm_label": "production deployment sequence",
       "id": "docs_environments_production_deployment",
-      "community_name": "Forward-fix migration policy"
+      "community": 12,
+      "norm_label": "production deployment sequence"
     },
     {
       "label": "Measured infrastructure expansion",
@@ -2363,10 +2110,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Storage, Redis, queues, metrics, replicas, and DB-host separation are deferred until a measured need exists.",
-      "community": 26,
-      "norm_label": "measured infrastructure expansion",
       "id": "docs_environments_deferred_infrastructure",
-      "community_name": "Measured infrastructure expansion"
+      "community": 26,
+      "norm_label": "measured infrastructure expansion"
     },
     {
       "label": "BerAlur initialization plan",
@@ -2377,10 +2123,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 17,
-      "norm_label": "beralur initialization plan",
       "id": "docs_implementation_plan",
-      "community_name": "BerAlur initialization plan"
+      "community": 17,
+      "norm_label": "beralur initialization plan"
     },
     {
       "label": "Verifiable local foundation",
@@ -2391,10 +2136,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "norm_label": "verifiable local foundation",
       "id": "docs_implementation_plan_foundation",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "verifiable local foundation"
     },
     {
       "label": "Initialization verification boundaries",
@@ -2406,10 +2150,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Readiness must fail without the database, tenant queries require scope, and restore must not target the working database.",
-      "community": 0,
-      "norm_label": "initialization verification boundaries",
       "id": "docs_implementation_plan_verification_boundaries",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "initialization verification boundaries"
     },
     {
       "label": "BerAlur API OpenAPI contract",
@@ -2420,10 +2163,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
-      "norm_label": "beralur api openapi contract",
       "id": "docs_openapi",
-      "community_name": "BerAlur API OpenAPI contract"
+      "community": 27,
+      "norm_label": "beralur api openapi contract"
     },
     {
       "label": "GET /health",
@@ -2434,10 +2176,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "norm_label": "get /health",
       "id": "docs_openapi_health",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "get /health"
     },
     {
       "label": "GET /ready",
@@ -2449,10 +2190,9 @@
       "author": null,
       "contributor": null,
       "rationale": "A successful database ping establishes connectivity only and does not verify migration version.",
-      "community": 0,
-      "norm_label": "get /ready",
       "id": "docs_openapi_ready",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "get /ready"
     },
     {
       "label": "X-Request-ID header",
@@ -2463,10 +2203,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "norm_label": "x-request-id header",
       "id": "docs_openapi_request_id",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "x-request-id header"
     },
     {
       "label": "Error response schema",
@@ -2477,10 +2216,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "norm_label": "error response schema",
       "id": "docs_openapi_error_schema",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "error response schema"
     },
     {
       "label": "Security and tenant guidance",
@@ -2491,10 +2229,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
-      "norm_label": "security and tenant guidance",
       "id": "docs_security",
-      "community_name": "Security and tenant guidance"
+      "community": 28,
+      "norm_label": "security and tenant guidance"
     },
     {
       "label": "Tenant organization scope",
@@ -2506,10 +2243,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Every tenant-data operation must scope organization_id from verified identity rather than client-provided scope.",
-      "community": 0,
-      "norm_label": "tenant organization scope",
       "id": "docs_security_tenant_scope",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "tenant organization scope"
     },
     {
       "label": "Tenant composite foreign keys",
@@ -2520,10 +2256,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "norm_label": "tenant composite foreign keys",
       "id": "docs_security_composite_foreign_keys",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "tenant composite foreign keys"
     },
     {
       "label": "Tenant authorization integration tests",
@@ -2534,10 +2269,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "norm_label": "tenant authorization integration tests",
       "id": "docs_security_tenant_authorization_tests",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "tenant authorization integration tests"
     },
     {
       "label": "Cookie session protections",
@@ -2548,10 +2282,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "norm_label": "cookie session protections",
       "id": "docs_security_session_protections",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "cookie session protections"
     },
     {
       "label": "Transactional audit log",
@@ -2562,10 +2295,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "norm_label": "transactional audit log",
       "id": "docs_security_audit_log",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "transactional audit log"
     },
     {
       "label": "Network exposure and TLS",
@@ -2576,10 +2308,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
-      "norm_label": "network exposure and tls",
       "id": "docs_security_network_and_tls",
-      "community_name": "Forward-fix migration policy"
+      "community": 12,
+      "norm_label": "network exposure and tls"
     },
     {
       "label": "Production customer-data readiness",
@@ -2591,10 +2322,9 @@
       "author": null,
       "contributor": null,
       "rationale": "The scaffold is not declared ready to store production customer data.",
-      "community": 12,
-      "norm_label": "production customer-data readiness",
       "id": "docs_security_production_data_readiness",
-      "community_name": "Forward-fix migration policy"
+      "community": 12,
+      "norm_label": "production customer-data readiness"
     },
     {
       "label": "Testing",
@@ -2605,10 +2335,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 17,
-      "norm_label": "testing",
       "id": "docs_testing",
-      "community_name": "BerAlur initialization plan"
+      "community": 17,
+      "norm_label": "testing"
     },
     {
       "label": "Unit and build checks",
@@ -2619,10 +2348,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "norm_label": "unit and build checks",
       "id": "docs_testing_unit_and_build",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "unit and build checks"
     },
     {
       "label": "PostgreSQL integration tests",
@@ -2633,10 +2361,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "norm_label": "postgresql integration tests",
       "id": "docs_testing_postgresql_integration",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "postgresql integration tests"
     },
     {
       "label": "Playwright end-to-end tests",
@@ -2647,10 +2374,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "norm_label": "playwright end-to-end tests",
       "id": "docs_testing_e2e",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "playwright end-to-end tests"
     },
     {
       "label": "CI evidence boundary",
@@ -2662,10 +2388,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Local results are not proof of remote CI until the repository workflow runs on its destination.",
-      "community": 0,
-      "norm_label": "ci evidence boundary",
       "id": "docs_testing_ci_evidence",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "ci evidence boundary"
     },
     {
       "label": "26 September 2026 initialization results",
@@ -2676,10 +2401,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "norm_label": "26 september 2026 initialization results",
       "id": "docs_testing_initialization_results",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "26 september 2026 initialization results"
     },
     {
       "label": "pnpm workspace configuration",
@@ -2690,10 +2414,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 31,
-      "norm_label": "pnpm workspace configuration",
       "id": "pnpm_workspace",
-      "community_name": "pnpm workspace configuration"
+      "community": 31,
+      "norm_label": "pnpm workspace configuration"
     },
     {
       "label": "apps/web workspace package",
@@ -2704,10 +2427,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "norm_label": "apps/web workspace package",
       "id": "pnpm_workspace_apps_web",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "apps/web workspace package"
     },
     {
       "label": "Only built dependencies",
@@ -2718,10 +2440,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
-      "norm_label": "only built dependencies",
       "id": "pnpm_workspace_only_built_dependencies",
-      "community_name": "GET /ready"
+      "community": 0,
+      "norm_label": "only built dependencies"
     }
   ],
   "links": [
@@ -4444,50 +4165,6 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/memory/query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m.md",
-      "source_location": "L10",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "graphify_out_memory_query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m",
-      "target": "graphify_out_memory_query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m_q_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_mudah_migrasi_ke_antara_vps_kalau_ada_masalah_di_vps_layanana_lain",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/memory/query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m.md",
-      "source_location": "L12",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "graphify_out_memory_query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m_q_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_mudah_migrasi_ke_antara_vps_kalau_ada_masalah_di_vps_layanana_lain",
-      "target": "graphify_out_memory_query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m_answer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/memory/query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m.md",
-      "source_location": "L16",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "graphify_out_memory_query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m_q_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_mudah_migrasi_ke_antara_vps_kalau_ada_masalah_di_vps_layanana_lain",
-      "target": "graphify_out_memory_query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m_outcome",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-out/memory/query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m.md",
-      "source_location": "L20",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "graphify_out_memory_query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m_q_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_mudah_migrasi_ke_antara_vps_kalau_ada_masalah_di_vps_layanana_lain",
-      "target": "graphify_out_memory_query_20260927_054939_saya_ingin_bertanya_apakah_struktur_alur_kita_ni_m_source_nodes",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -5139,5 +4816,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "842d7442f990847580dffc8743ca0e46b78fafc3"
+  "built_at_commit": "88290da0f7575639bbee7e2b8c4d58ac8f2f9436"
 }

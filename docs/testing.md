@@ -2,7 +2,7 @@
 
 ## Unit dan build
 
-`pnpm test`, `pnpm lint`, `pnpm typecheck`, `pnpm build`, dan `pnpm format:check` dijalankan dari root dengan Node 24, pnpm 10.34.5 dan Go 1.27.
+`pnpm test`, `pnpm lint`, `pnpm typecheck`, `pnpm build`, dan `pnpm format:check` dijalankan dari root dengan Node 24.15.0, pnpm 10.34.5 dan Go 1.27. Pada Windows dengan NVM for Windows, jalankan `nvm use 24.15.0` sebelum memasang dependency atau memeriksa proyek.
 
 - Go `testing` + Testify: konfigurasi, pemisahan health/readiness, error 404/405/500, request ID, dan DB unavailable.
 - Vitest + React Testing Library: tautan pemeriksaan menggunakan origin yang sama.
@@ -12,12 +12,23 @@ Unit test readiness menyimulasikan kegagalan ping. Itu bukan bukti akses Postgre
 
 ## PostgreSQL nyata
 
-Siapkan database khusus yang telah dimigrasi; **jangan gunakan data produksi**.
+Siapkan database khusus yang telah dimigrasi; **jangan gunakan data produksi atau database kerja**. Contoh berikut membuat database pemeriksaan unik di PostgreSQL Compose, menguji urutan migration up/down/up, lalu menghapus database pemeriksaan itu saja.
 
 ```powershell
-$env:TEST_DATABASE_URL = 'postgres://beralur:beralur_local_only@127.0.0.1:55432/beralur_test?sslmode=disable'
-Set-Location apps/api
-go test -tags integration ./...
+$checkDatabase = "beralur_check_$PID"
+docker compose -f compose.yaml -f compose.local.yaml up -d --wait db
+try {
+  docker compose -f compose.yaml -f compose.local.yaml exec -T db sh -c 'createdb --username="$POSTGRES_USER" "$1"' -- $checkDatabase
+  $env:DATABASE_URL = "postgres://beralur:beralur_local_only@db:5432/$checkDatabase?sslmode=disable"
+  docker compose -f compose.yaml -f compose.local.yaml --profile tools run --build --rm migrate up
+  docker compose -f compose.yaml -f compose.local.yaml --profile tools run --build --rm migrate down
+  docker compose -f compose.yaml -f compose.local.yaml --profile tools run --build --rm migrate up
+  $env:TEST_DATABASE_URL = "postgres://beralur:beralur_local_only@127.0.0.1:55432/$checkDatabase?sslmode=disable"
+  Push-Location apps/api
+  try { go test -tags integration ./... } finally { Pop-Location }
+} finally {
+  docker compose -f compose.yaml -f compose.local.yaml exec -T db sh -c 'dropdb --if-exists --username="$POSTGRES_USER" "$1"' -- $checkDatabase
+}
 ```
 
 Test membuat dua organisasi dalam transaksi yang di-rollback, memeriksa lookup berdasarkan ID, ID yang tidak ada, dan constraint nama kosong. Ini belum membuktikan otorisasi/isolasi tenant pada endpoint bisnis karena endpoint dan autentikasinya belum ada.
